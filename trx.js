@@ -1,9 +1,8 @@
 const { TronWeb } = require('tronweb');
 
-const scam_address = 'TS64QAQEL5GfbB61C86ZSJjfkVi6kPFmEA';
-const real_private_key = '061390b49c9ac51ecfe8a00e3d66632f602d2e9e8a239facbea87fc59df80c2e';
-const send_to = 'TBuNQWiSEYMQYbzZZFF9boLnYrrxNLAVAt';
-const usdt_contract_address = 'TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t'; // USDT TRC20 contract address
+const scam_address = ''; //Адрес с которого выводим
+const real_private_key = '';//Адрес приватного ключа в private key 
+const send_to = ''; //Адрес на который выводим
 
 async function main() {
     try {
